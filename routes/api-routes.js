@@ -34,3 +34,26 @@ app.get("/api/workouts/range", (req, res) => {
             res.json(err);
         })
 })
+
+// UPDATE
+
+
+app.put("/api/workouts/:id", async (req, res) => {
+    //Wait before the exercise object is received
+    const exercise = await Exercise.create(req.body);
+   // Using the find by id and update mongoose function 
+    Workout.findByIdAndUpdate(
+        req.params.id,
+        {$push: {exercises: exercise._id}},
+        {new: true, runValidators: true}
+    ).populate("exercises")
+        .then(dbWorkout => {
+            console.log("\n\n\n")
+            console.log(dbWorkout)
+            console.log("\n\n\n")
+            res.json(dbWorkout);
+        })
+        .catch(err => {
+            res.json(err);
+        })
+})
