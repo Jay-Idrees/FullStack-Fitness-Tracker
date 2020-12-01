@@ -57,3 +57,16 @@ app.put("/api/workouts/:id", async (req, res) => {
             res.json(err);
         })
 })
+
+// DELETE
+app.delete("/api/workouts", (req, res) => {
+    Workout.findByIdAndDelete(req.body.id)
+        .then(() => {
+            res.json(true)
+        })
+        .catch(err => {
+            res.json(err)
+        })
+})
+
+module.exports = app;
