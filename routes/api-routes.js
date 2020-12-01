@@ -24,4 +24,13 @@ app.post("/api/workouts/", (req, res) => {
 
 // READ
 
-
+app.get("/api/workouts/range", (req, res) => {
+    // Find all workouts but limit the result to 5
+    Workout.find({}).limit(5)
+        .then(workouts => {
+            res.json(workouts)
+        })
+        .catch(err => {
+            res.json(err);
+        })
+})
