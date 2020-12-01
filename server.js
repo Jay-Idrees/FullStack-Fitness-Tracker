@@ -15,6 +15,13 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
 });
 
 
+// api/html routes
+app.use(require("./routes/api-routes.js"));
+app.use(require("./routes/html-routes.js"));
+
+
+
+
 // Listener
 app.listen(PORT, () => {
     console.log("Welcome to Fitness Trainer, your server is running at http://localhost" +  PORT);
