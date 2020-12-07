@@ -63,7 +63,8 @@ jidrees@live.com
 
 ## Packages used
 
-Express,Mongoose
+Express <br />
+Mongoose
 
 ## Applied Programming Skills
 
@@ -79,12 +80,14 @@ By completing this project I was able to master application of the following pro
 
 - Using HTML, CSS for Front-End design
 
+- Deploying apps on Heroku
+
 - Using Node.JS for generating a high quality readme file
 
 ## Key files in the repository
 
-server.js
-Files in the models, routes and public folders
+server.js <br />
+Files in the models, routes anGird public folders
 
 
 ## Installation
