@@ -5,7 +5,7 @@ This project is a full stack application that allows user to add information reg
 I developed this application during the 8th week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/18/2020
 
 
-[Link to the Fitness Tracker]() <br />
+[Link to the Fitness Tracker](https://fullstack-fitness-tracker.herokuapp.com/) <br />
 [Watch a video demonstrating the app functionality](https://youtu.be/PaxxzQ-yDDI)<br />
 
 ## Contact Programmer for questions
@@ -84,6 +84,7 @@ By completing this project I was able to master application of the following pro
 ## Key files in the repository
 
 server.js
+Files in the models, routes and public folders
 
 
 ## Installation
@@ -104,8 +105,6 @@ node server
 
 
 ## Testing
-
-For running the tests on application, please run the following commad
 
 No tests are performed
 
