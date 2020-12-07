@@ -1,57 +1,120 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Full-Stack Fitness Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## About the Project
+This project is a full stack application that allows user to add information regarding a work-out session. The Front-End is designed using HTML, CSS and Javascript while the back-end componnts include storage of a fitness session as an object into the MongoDB database via API and HTML routes handled by Express.JS
+I developed this application during the 8th week of the coding bootcamp experience at Columbia University, NY. Date of publication: 11/18/2020
+
+
+[Link to the Fitness Tracker]() <br />
+[Watch a video demonstrating the app functionality](https://youtu.be/PaxxzQ-yDDI)<br />
+
+## Contact Programmer for questions
+
+Jay J. Idrees, MD, MPH<br />
+Full-Stack Software Engineer<br />
+[JAY-IDREES](https://github.com/Jay-Idrees) ![Github](http://img.shields.io/badge/github-black?style=flat&logo=github)<br />
+jidrees@live.com
+
+
+
+## Contents
+
+- [User Story](#user-story)
+- [Technologies used](#technologies-used)
+- [Key files in the repository](#key-files-in-the-repository)
+- [Packages used](#packages-used)
+- [Applied Programming Skills](#applied-programming-skills)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [License](#license)
+- [Credits and Copyright](#credits-and-copyright)
+
 
 ## User Story
 
-* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+ As a user, I want to be able to create and track daiy workouts. I want to be abale to log multiple exercises in a workout in a given day. I should also be able to track the name, type, weight, reps and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance travelled.
 
-## Business Context
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
 
-## Acceptance Criteria
+## Technologies used
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
 
-The user should be able to:
 
-  * Add exercises to a previous workout plan.
 
-  * Add new exercises to a new workout plan.
+![Javascript](https://img.shields.io/badge/JavaScript-black?style=for-the-badge&logo=JavaScript)
 
-  * View the combined weight of multiple exercises on the `stats` page.
+![CSS](https://img.shields.io/badge/css-darkgreen?style=for-the-badge&logo=css3)
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+![HTML](https://img.shields.io/badge/HTML-informational?style=for-the-badge&logo=html5)
 
-  * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
+![NPM](http://img.shields.io/badge/npm-yellow?style=for-the-badge&logo=NPM)
 
-  * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+![Node](https://img.shields.io/badge/Node-green?style=for-the-badge&logo=Node.js)
 
-## Commit Early and Often
+![EXPRESS.js](http://img.shields.io/badge/express-JS-yellow?style=for-the-badge&logo=experts-exchange)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+![MongoDB](http://img.shields.io/badge/mongo-dB-black?style=for-the-badge&logo=mongodb)
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+![Heroku](http://img.shields.io/badge/Heroku-purple?style=for-the-badge&logo=heroku)
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
 
-Follow these guidelines for committing:
 
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+## Packages used
 
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
+Express,Mongoose
 
-* Test your application before you commit to ensure functionality at every step in the development process.
+## Applied Programming Skills
 
-We want you to have well over 200 commits by graduation, so commit early and often!
+By completing this project I was able to master application of the following programming skills: 
 
-## Submission on BCS
+- Using the Mongoose package to store data in MongDB
 
-You are required to submit the following:
+- Using Express.JS server for handeling requests 
 
-* The URL to the deployed application
+- Forming API and HTML routes
 
-* The URL to the GitHub repository
+- Creating Models for storing MongoDB collections
+
+- Using HTML, CSS for Front-End design
+
+- Using Node.JS for generating a high quality readme file
+
+## Key files in the repository
+
+server.js
+
+
+## Installation
+
+For installation of the dependencies, please run the following command in the terminal
+
+```
+npm install
+```
+
+## Usage
+
+To start the application, please type the following command in the terminal
+
+```
+node server
+```
+
+
+## Testing
+
+For running the tests on application, please run the following commad
+
+No tests are performed
+
+## License 
+
+![License badge](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
+## Credits and Copyright 
+Copytight 2020- Present. Jay Idrees
+
+
